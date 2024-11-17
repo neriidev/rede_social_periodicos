@@ -85,3 +85,54 @@ ng serve
 ## Para executar os testes unitários, use o comando:
 
 ``` ng test
+
+
+
+
+
+```markdown
+# Social Periódicos Backend em Python
+
+## Descrição
+Projeto backend desenvolvido em Python para gerenciar perfis e afinidades.
+
+## Pré-requisitos
+- Python 3.8 ou superior
+- pip (gerenciador de pacotes do Python)
+
+## Configuração do Projeto
+
+### Clonar o repositório
+```sh
+git clone https://github.com/rodrigogregorioneri/socialperiodicos-backend.git
+cd socialperiodicos-backend
+```
+
+### Criar e ativar um ambiente virtual
+```sh
+python -m venv venv
+source venv/bin/activate  # No Windows use `venv\Scripts\activate`
+```
+
+### Instalar dependências
+```sh
+pip install -r requirements.txt
+```
+
+### Executar o projeto
+```sh
+python app.py
+```
+O projeto estará disponível em `http://localhost:5000`.
+
+## Estrutura do Projeto
+- `app.py`: Arquivo principal do aplicativo.
+- `requirements.txt`: Lista de dependências do projeto.
+- `src/`: Contém os módulos e pacotes do projeto.
+
+## Testes
+Para executar os testes, use o comando:
+```sh
+pytest
+```
+```
