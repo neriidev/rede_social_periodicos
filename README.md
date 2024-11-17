@@ -7,7 +7,10 @@ Projeto Spring Boot para gerenciar perfis e afinidades.
 
 ## Pré-requisitos
 - Java 11 ou superior
-- Maven 3.6.0 ou superior
+- Maven 3.6.0 ou superior~
+- Node.js 14 ou superior
+- Angular CLI 12 ou superior
+
 
 ## Configuração do Projeto
 
