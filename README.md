@@ -121,14 +121,15 @@ pip install -r requirements.txt
 
 ### Executar o projeto
 ```sh
-python app.py
+python agents.py
 ```
-O projeto estará disponível em `http://localhost:5000`.
-
 ## Estrutura do Projeto
-- `app.py`: Arquivo principal do aplicativo.
+- `agents.py`: Arquivo principal do aplicativo.
 - `requirements.txt`: Lista de dependências do projeto.
-- `src/`: Contém os módulos e pacotes do projeto.
+- `scrapper/`: Contém o Scrapper responsavel por extrair texto dos periodicos.
+- `agent/`: Contém o módulos Agent responsavel por usar IA para analisar e responder peguntas baseadas nas docs.
+
+Obs. necessario criar uma API para consumir esses dados OPEN IA e Integrar com o backend Java
 
 ## Testes
 Para executar os testes, use o comando:
